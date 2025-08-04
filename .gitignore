@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+out-midi/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+Thumbs.db
+
+# Python / ML / Misc
+*.bak
+*.tmp
+*.bin
+*.pkl
+*.pt
+__pycache__/
+venv/
+wandb/
+.claude/
+piano-midi-files/
